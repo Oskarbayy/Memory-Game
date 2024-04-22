@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(50,52,55);
+}
+
+.state {
+    display: flex;
+    height: 10vw;
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    width: 25%;
+    height: 100%;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(98,99,101);
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1; 
+    margin: 0;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.stat-number {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(226,183,20);
+    font-size: 3vw; /* Smaller font size for the statistic number */
+    margin: 0; /* Remove margin to control spacing */
+    font-weight: 550;
+}
+
+header {
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(200,200,200);
+}
+
+.button {
+  border: none;
+  color: rgb(225,225,225);
+  background-color: rgb(100,102,105);
+  padding: 15px 32px;
+  border-radius: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  display: block;
+  width: 20%;
+  height: 7%;
+}
+
+.reset {
+    color: rgb(109, 110, 112);
+    font-weight:  550;
+    background-color: rgba(100, 102, 105, 0);
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    top: 10px;
+}
+
+.piece {
+    display: inline-block;
+    width:19%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    margin: 0.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.reset:hover {
+    color: rgb(202,201,191);
+}
+
+.reset:active {
+    color: rgb(100,102,105);
+}
+
+
+.piece:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+.piece:active {
+    background-color: rgb(100,102,105);
+}
+
+.test {
+    height: 1000px;
+}
