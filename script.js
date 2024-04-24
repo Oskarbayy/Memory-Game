@@ -1,5 +1,5 @@
 // Settings
-var piecesPerImage = 1; // how many pieces needed for score?
+var piecesPerImage = 2; // how many pieces needed for score?
 var players = 2;
 
 // // // //
